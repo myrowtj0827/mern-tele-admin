@@ -1,0 +1,58 @@
+/**
+ * Sidebar css
+ */
+.logo-p {
+    padding-top: 23px;
+    padding-bottom: 24px;
+}
+
+.icon-plr {
+    margin-right: 9px;
+    margin-left: 26px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 48px;
+    text-align: left;
+}
+
+.menu-item:hover {
+    background-color: #33916F;
+}
+
+.menu-item a, .collapse-bg a {
+    width: 100%;
+    color: var(--col-white);
+}
+
+.collapse-bg {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+    min-height: 48px;
+    text-align: left;
+}
+
+.collapse-bg:hover,
+.span-bg {
+    background-color: #33916F;
+}
+
+.settings-position {
+    position: relative;
+}
+
+.settings-icon {
+    position: absolute;
+    right: 20px;
+}
+
+.collapse-bg.settings:hover {
+    background-color: #fff4;
+}
+

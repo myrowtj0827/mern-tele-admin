@@ -1,0 +1,86 @@
+
+/**
+ * Scheduling
+ */
+
+@media screen and (max-width: 1440px){
+    .scheduling-calendar-body {
+        padding: 0 15px 36px 15px !important;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+    .scheduling-calendar-body {
+        padding: 0 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .calendar-right-btn {
+        display: inline !important;
+        justify-content: center !important;
+    }
+
+    .pl-40 {
+        padding-left: 0 !important;
+    }
+
+    .pl-40.calendars.first-p {
+        padding-top: 50px !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width: 480px){
+    .btn-create-appointment {
+        min-width: 200px !important;
+    }
+}
+
+
+
+.scheduling-calendar-body {
+    padding: 0 36px 36px;
+}
+
+.btn-create-appointment {
+    padding: 7px;
+    border-radius: 4px;
+    width: 100%;
+    min-width: 240px;
+    text-align: center;
+    background-color: var(--col-heavyDark);
+}
+
+.btn-upload:hover {
+    opacity: 0.6;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.calendar-right-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-create-appointment.today {
+    width: 100%;
+    min-width: 150px;
+}
+
+.calendars > select {
+    width: 100%;
+}
